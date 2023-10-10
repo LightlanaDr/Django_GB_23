@@ -82,3 +82,86 @@ INFO 2023-10-10 22:54:30,603 basehttp 3600 1060 "GET /sem1/main/ HTTP/1.1" 200 4
 INFO 2023-10-10 22:54:31,827 basehttp 3600 1060 "GET /sem1/about/ HTTP/1.1" 200 538
 INFO 2023-10-10 22:54:33,381 basehttp 3600 1060 "GET /sem1/main/ HTTP/1.1" 200 408
 INFO 2023-10-10 22:54:34,516 basehttp 3600 1060 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:06:59,853 autoreload 3600 9740 N:\GB_DZ\Django\myprojectgb\myapp_sem1\views.py changed, reloading.
+INFO 2023-10-10 23:07:00,371 autoreload 5232 11896 Watching for file changes with StatReloader
+INFO 2023-10-10 23:07:07,569 basehttp 5232 11780 "GET / HTTP/1.1" 200 13
+INFO 2023-10-10 23:07:19,379 views 5232 11780 Страница открыта: 
+    <title>Главная страница</title>
+    <body>
+        <div align="center">
+            <h1>Главная страница</h1>
+            <a href="http://127.0.0.1:8000/sem1/about/"><p>Страница обо мне</p></a>
+        </div>
+        <footer>
+            <div align="center">
+            <p> Swetlana Druzchkova * 2023</p>
+            </div>
+        </footer>
+    </body>
+    
+INFO 2023-10-10 23:07:19,381 basehttp 5232 11780 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 23:07:21,781 views 5232 11780 Страница открыта: 
+    <title>Главная страница</title>
+    <body>
+        <div align="center">
+            <h1>Страница обо мне</h1>
+            <p>Светлана Дружкова, 30 лет</p>
+            <p>Проживаю в г. Фрязино, МО</p>
+            <a href="http://127.0.0.1:8000/sem1/main/"><p>Перейти на главную</p></a>
+        </div>
+        <footer>
+            <div align="center">
+            <p> Swetlana Druzchkova * 2023</p>
+            </div>
+        </footer>
+    </body>
+    
+INFO 2023-10-10 23:07:21,782 basehttp 5232 11780 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:07:23,133 views 5232 11780 Страница открыта: 
+    <title>Главная страница</title>
+    <body>
+        <div align="center">
+            <h1>Главная страница</h1>
+            <a href="http://127.0.0.1:8000/sem1/about/"><p>Страница обо мне</p></a>
+        </div>
+        <footer>
+            <div align="center">
+            <p> Swetlana Druzchkova * 2023</p>
+            </div>
+        </footer>
+    </body>
+    
+INFO 2023-10-10 23:07:23,134 basehttp 5232 11780 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 23:07:24,269 views 5232 11780 Страница открыта: 
+    <title>Главная страница</title>
+    <body>
+        <div align="center">
+            <h1>Страница обо мне</h1>
+            <p>Светлана Дружкова, 30 лет</p>
+            <p>Проживаю в г. Фрязино, МО</p>
+            <a href="http://127.0.0.1:8000/sem1/main/"><p>Перейти на главную</p></a>
+        </div>
+        <footer>
+            <div align="center">
+            <p> Swetlana Druzchkova * 2023</p>
+            </div>
+        </footer>
+    </body>
+    
+INFO 2023-10-10 23:07:24,271 basehttp 5232 11780 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:09:05,584 autoreload 5232 11896 N:\GB_DZ\Django\myprojectgb\myapp_sem1\views.py changed, reloading.
+INFO 2023-10-10 23:09:06,076 autoreload 5460 3180 Watching for file changes with StatReloader
+INFO 2023-10-10 23:09:26,934 autoreload 5460 3180 N:\GB_DZ\Django\myprojectgb\myapp_sem1\views.py changed, reloading.
+INFO 2023-10-10 23:09:27,435 autoreload 11764 11944 Watching for file changes with StatReloader
+INFO 2023-10-10 23:09:32,264 views 11764 2944 Страница "О нас" открыта
+INFO 2023-10-10 23:09:32,264 basehttp 11764 2944 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:09:34,141 views 11764 2944 Страница "О нас" открыта
+INFO 2023-10-10 23:09:34,141 basehttp 11764 2944 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:09:35,095 views 11764 2944 Главная страница открыта
+INFO 2023-10-10 23:09:35,096 basehttp 11764 2944 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 23:09:36,200 views 11764 2944 Страница "О нас" открыта
+INFO 2023-10-10 23:09:36,201 basehttp 11764 2944 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:09:37,303 views 11764 2944 Главная страница открыта
+INFO 2023-10-10 23:09:37,304 basehttp 11764 2944 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 23:09:38,544 views 11764 2944 Страница "О нас" открыта
+INFO 2023-10-10 23:09:38,545 basehttp 11764 2944 "GET /sem1/about/ HTTP/1.1" 200 538

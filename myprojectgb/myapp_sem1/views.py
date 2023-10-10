@@ -21,6 +21,7 @@ def main(request):
         </footer>
     </body>
     """
+    logger.info(f'Главная страница открыта')
     return HttpResponse(body, charset='utf-8', headers=headers)
 
 
@@ -41,4 +42,5 @@ def about(request):
         </footer>
     </body>
     """
+    logger.info(f'Страница "О нас" открыта')
     return HttpResponse(body, charset='utf-8', headers=headers)
