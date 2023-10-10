@@ -1,0 +1,84 @@
+Watching for file changes with StatReloader
+Internal Server Error: /task5/three/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 21, in three
+    answer = random.randint(1, 100)
+AttributeError: 'builtin_function_or_method' object has no attribute 'randint'
+"GET /task5/three/ HTTP/1.1" 500 61931
+Internal Server Error: /task5/three/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 21, in three
+    answer = random.randint(1, 100)
+AttributeError: 'builtin_function_or_method' object has no attribute 'randint'
+"GET /task5/three/ HTTP/1.1" 500 61931
+Internal Server Error: /task5/three/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 21, in three
+    answer = random.randint(1, 100)
+AttributeError: 'builtin_function_or_method' object has no attribute 'randint'
+"GET /task5/three/ HTTP/1.1" 500 61931
+N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+Watching for file changes with StatReloader
+N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /task5/three/ HTTP/1.1" 200 2
+N:\GB_DZ\Django\myprojectgb\myprojectgb\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /task5/three/ HTTP/1.1" 200 2
+N:\GB_DZ\Django\myprojectgb\myprojectgb\settings.py changed, reloading.
+Watching for file changes with StatReloader
+N:\GB_DZ\Django\myprojectgb\myprojectgb\settings.py changed, reloading.
+Watching for file changes with StatReloader
+N:\GB_DZ\Django\myprojectgb\myprojectgb\settings.py changed, reloading.
+INFO 2023-10-10 19:17:07,788 autoreload 9100 9428 Watching for file changes with StatReloader
+INFO 2023-10-10 19:17:35,028 basehttp 9100 11240 "GET /task5/three/ HTTP/1.1" 200 2
+WARNING 2023-10-10 19:17:38,733 log 9100 11240 Not Found: /task5/1
+WARNING 2023-10-10 19:17:38,735 basehttp 9100 11240 "GET /task5/1 HTTP/1.1" 404 2775
+INFO 2023-10-10 19:17:44,316 basehttp 9100 11240 "GET /task5/one/ HTTP/1.1" 200 10
+INFO 2023-10-10 22:48:39,297 autoreload 10980 12104 Watching for file changes with StatReloader
+INFO 2023-10-10 22:48:47,837 basehttp 10980 428 "GET / HTTP/1.1" 200 13
+INFO 2023-10-10 22:48:56,986 basehttp 10980 428 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:25,045 autoreload 10980 12104 N:\GB_DZ\Django\myprojectgb\myapp_sem1\views.py changed, reloading.
+INFO 2023-10-10 22:49:25,545 autoreload 12096 5468 Watching for file changes with StatReloader
+INFO 2023-10-10 22:49:27,563 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:29,688 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:30,881 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:31,793 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:32,593 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:32,922 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:33,153 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:33,440 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:33,913 basehttp 12096 4956 "GET /sem1/about/ HTTP/1.1" 200 389
+INFO 2023-10-10 22:49:49,644 autoreload 12096 5468 N:\GB_DZ\Django\myprojectgb\myapp_sem1\views.py changed, reloading.
+INFO 2023-10-10 22:49:50,139 autoreload 3660 10116 Watching for file changes with StatReloader
+INFO 2023-10-10 22:49:53,343 basehttp 3660 11660 "GET /sem1/about/ HTTP/1.1" 200 404
+INFO 2023-10-10 22:50:52,465 autoreload 3660 10116 N:\GB_DZ\Django\myprojectgb\myapp_sem1\views.py changed, reloading.
+INFO 2023-10-10 22:50:52,957 autoreload 10008 12128 Watching for file changes with StatReloader
+INFO 2023-10-10 22:50:55,559 basehttp 10008 10528 "GET /sem1/about/ HTTP/1.1" 200 410
+INFO 2023-10-10 22:50:58,254 basehttp 10008 10528 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 22:51:00,119 basehttp 10008 10528 "GET /sem1/about/ HTTP/1.1" 200 410
+INFO 2023-10-10 22:51:00,919 basehttp 10008 10528 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 22:54:17,649 autoreload 10008 12128 N:\GB_DZ\Django\myprojectgb\myapp_sem1\views.py changed, reloading.
+INFO 2023-10-10 22:54:18,197 autoreload 3600 9740 Watching for file changes with StatReloader
+INFO 2023-10-10 22:54:19,250 basehttp 3600 1060 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 22:54:20,508 basehttp 3600 1060 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 22:54:24,779 basehttp 3600 1060 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 22:54:26,292 basehttp 3600 1060 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 22:54:27,580 basehttp 3600 1060 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 22:54:28,380 basehttp 3600 1060 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 22:54:30,603 basehttp 3600 1060 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 22:54:31,827 basehttp 3600 1060 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 22:54:33,381 basehttp 3600 1060 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-10 22:54:34,516 basehttp 3600 1060 "GET /sem1/about/ HTTP/1.1" 200 538
