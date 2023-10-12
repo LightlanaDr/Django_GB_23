@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'myapp',
     'myapp_task5',
     'myapp_sem1',
+    'myapp_sem2',
+    'myapp_blog',
+    'myapp_shop',
 ]
 
 MIDDLEWARE = [

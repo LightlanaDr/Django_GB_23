@@ -22,4 +22,8 @@ urlpatterns = [
     path('', include('myapp.urls')),
     path('task5/', include('myapp_task5.urls')),
     path('sem1/', include('myapp_sem1.urls')),
+    path('sem2/', include('myapp_sem2.urls')),
+    path('blog/', include('myapp_blog.urls')),
+    path('shop/', include('myapp_shop.urls')),
+
 ]

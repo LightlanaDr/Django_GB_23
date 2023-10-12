@@ -165,3 +165,345 @@ INFO 2023-10-10 23:09:37,303 views 11764 2944 Главная страница открыта
 INFO 2023-10-10 23:09:37,304 basehttp 11764 2944 "GET /sem1/main/ HTTP/1.1" 200 408
 INFO 2023-10-10 23:09:38,544 views 11764 2944 Страница "О нас" открыта
 INFO 2023-10-10 23:09:38,545 basehttp 11764 2944 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:12:41,450 views 11764 2944 Главная страница открыта
+INFO 2023-10-10 23:12:41,450 basehttp 11764 2944 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-11 21:59:05,662 autoreload 11220 1212 Watching for file changes with StatReloader
+INFO 2023-10-11 21:59:06,920 basehttp 11220 6440 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-11 21:59:07,064 log 11220 6440 Not Found: /favicon.ico
+WARNING 2023-10-11 21:59:07,064 basehttp 11220 6440 "GET /favicon.ico HTTP/1.1" 404 2592
+WARNING 2023-10-11 21:59:10,098 log 11220 6440 Not Found: /docs
+WARNING 2023-10-11 21:59:10,099 basehttp 11220 6440 "GET /docs HTTP/1.1" 404 2571
+INFO 2023-10-11 21:59:16,791 basehttp 11220 6440 "GET /sem2/one HTTP/1.1" 301 0
+ERROR 2023-10-11 21:59:16,839 log 11220 8084 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 21:59:16,839 basehttp 11220 8084 "GET /sem2/one/ HTTP/1.1" 500 69924
+INFO 2023-10-11 22:00:37,265 autoreload 11220 1212 N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py changed, reloading.
+INFO 2023-10-11 22:00:37,781 autoreload 10716 1404 Watching for file changes with StatReloader
+INFO 2023-10-11 22:00:38,997 basehttp 10716 8956 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-11 22:00:41,924 log 10716 8956 Not Found: /docs
+WARNING 2023-10-11 22:00:41,924 basehttp 10716 8956 "GET /docs HTTP/1.1" 404 2571
+ERROR 2023-10-11 22:00:54,105 log 10716 8956 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:00:54,105 basehttp 10716 8956 "GET /sem2/one/ HTTP/1.1" 500 69925
+INFO 2023-10-11 22:30:17,212 autoreload 7888 11220 Watching for file changes with StatReloader
+INFO 2023-10-11 22:30:18,739 basehttp 7888 5436 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-11 22:30:31,882 log 7888 5436 Not Found: /docs
+WARNING 2023-10-11 22:30:31,882 basehttp 7888 5436 "GET /docs HTTP/1.1" 404 2571
+ERROR 2023-10-11 22:30:37,318 log 7888 5436 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:30:37,318 basehttp 7888 5436 "GET /sem2/one/ HTTP/1.1" 500 69910
+INFO 2023-10-11 22:34:06,460 autoreload 7888 11220 N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py changed, reloading.
+INFO 2023-10-11 22:34:06,966 autoreload 664 2052 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:34:07,283 log 664 9500 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:34:07,283 basehttp 664 9500 "GET /sem2/one/ HTTP/1.1" 500 70040
+ERROR 2023-10-11 22:34:10,854 log 664 9500 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:34:10,854 basehttp 664 9500 "GET /sem2/one/ HTTP/1.1" 500 70049
+INFO 2023-10-11 22:45:23,210 autoreload 5952 1336 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:45:26,630 log 5952 1924 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 13, in staticstic
+    list_res = query[-n:]
+TypeError: bad operand type for unary -: 'str'
+ERROR 2023-10-11 22:45:26,630 basehttp 5952 1924 "GET /sem2/one/ HTTP/1.1" 500 67004
+INFO 2023-10-11 22:46:09,563 autoreload 5952 1336 N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py changed, reloading.
+INFO 2023-10-11 22:46:10,096 autoreload 6448 3352 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:46:12,761 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:12,761 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 67564
+ERROR 2023-10-11 22:46:13,879 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:13,879 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 67704
+ERROR 2023-10-11 22:46:14,429 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:14,429 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 67856
+ERROR 2023-10-11 22:46:14,887 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:14,903 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68002
+ERROR 2023-10-11 22:46:15,197 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:15,197 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68060
+ERROR 2023-10-11 22:46:15,467 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:15,467 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68130
+ERROR 2023-10-11 22:46:15,797 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:15,797 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68203
+ERROR 2023-10-11 22:46:16,176 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:16,176 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68270
+ERROR 2023-10-11 22:46:16,529 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:16,529 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68346
+ERROR 2023-10-11 22:46:16,807 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:16,807 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68422
+INFO 2023-10-11 22:49:35,369 autoreload 6448 3352 N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py changed, reloading.
+INFO 2023-10-11 22:49:35,902 autoreload 8276 8480 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:49:36,704 log 8276 12872 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 17, in staticstic
+    dict_res['Orel'] += 1
+KeyError: 'Orel'
+ERROR 2023-10-11 22:49:36,704 basehttp 8276 12872 "GET /sem2/one/ HTTP/1.1" 500 68374
+WARNING 2023-10-11 22:49:40,974 log 8276 12872 Not Found: /sem2/one/5
+WARNING 2023-10-11 22:49:40,975 basehttp 8276 12872 "GET /sem2/one/5 HTTP/1.1" 404 2652
+WARNING 2023-10-11 22:49:44,547 log 8276 12872 Not Found: /sem2/one/5
+WARNING 2023-10-11 22:49:44,547 basehttp 8276 12872 "GET /sem2/one/5 HTTP/1.1" 404 2652
+ERROR 2023-10-11 22:50:50,847 log 8276 12872 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 17, in staticstic
+    dict_res['Orel'] += 1
+KeyError: 'Orel'
+ERROR 2023-10-11 22:50:50,863 basehttp 8276 12872 "GET /sem2/one/ HTTP/1.1" 500 68444
+INFO 2023-10-11 22:52:58,326 autoreload 8276 8480 N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py changed, reloading.
+INFO 2023-10-11 22:52:58,848 autoreload 10704 1268 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:53:02,682 log 10704 5880 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 19, in staticstic
+    dict_res['Reschka'] += 1
+KeyError: 'Reschka'
+ERROR 2023-10-11 22:53:02,682 basehttp 10704 5880 "GET /sem2/one/ HTTP/1.1" 500 68259
+INFO 2023-10-11 22:55:01,738 autoreload 10704 1268 N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py changed, reloading.
+INFO 2023-10-11 22:55:02,238 autoreload 12312 5260 Watching for file changes with StatReloader
+INFO 2023-10-11 22:55:07,926 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:17,456 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:18,604 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:19,323 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:19,955 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:20,508 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:21,140 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:21,676 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:22,241 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:22,844 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:23,292 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:23,697 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:24,096 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:24,543 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:24,999 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:25,437 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:25,901 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:26,963 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:27,563 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:30,950 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:31,451 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:57:04,712 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:28,365 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:28,618 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:28,833 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:29,118 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:29,339 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:29,763 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:30,001 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-12 18:45:50,662 autoreload 8680 8332 Watching for file changes with StatReloader
+INFO 2023-10-12 18:45:52,552 basehttp 8680 6404 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-12 18:45:52,705 log 8680 6404 Not Found: /favicon.ico
+WARNING 2023-10-12 18:45:52,706 basehttp 8680 6404 "GET /favicon.ico HTTP/1.1" 404 2697
+WARNING 2023-10-12 18:46:06,280 log 8680 6404 Not Found: /post
+WARNING 2023-10-12 18:46:06,280 basehttp 8680 6404 "GET /post HTTP/1.1" 404 2676
+WARNING 2023-10-12 18:46:31,149 log 8680 6404 Not Found: /post/post_by_authors/2
+WARNING 2023-10-12 18:46:31,149 basehttp 8680 6404 "GET /post/post_by_authors/2 HTTP/1.1" 404 2730
+WARNING 2023-10-12 18:46:39,292 log 8680 6404 Not Found: /post/post_by_authors
+WARNING 2023-10-12 18:46:39,293 basehttp 8680 6404 "GET /post/post_by_authors HTTP/1.1" 404 2724
+WARNING 2023-10-12 18:47:47,336 log 8680 6404 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:47:47,337 basehttp 8680 6404 "GET /post/post_by_authors/?name=Name_4 HTTP/1.1" 404 2739
+INFO 2023-10-12 18:48:31,589 autoreload 8680 8332 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-12 18:48:32,119 autoreload 5612 1948 Watching for file changes with StatReloader
+WARNING 2023-10-12 18:49:06,206 log 5612 2576 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:06,206 basehttp 5612 2576 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:08,763 log 5612 2576 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:08,764 basehttp 5612 2576 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+INFO 2023-10-12 18:49:16,416 autoreload 5612 1948 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-12 18:49:16,920 autoreload 6132 520 Watching for file changes with StatReloader
+WARNING 2023-10-12 18:49:21,613 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:21,613 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:22,593 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:22,593 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:22,964 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:22,964 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,196 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,196 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,411 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,411 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,633 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,633 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,851 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,851 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,068 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,068 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,284 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,284 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,502 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,502 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,734 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,734 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,951 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,951 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:25,153 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:25,168 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:25,354 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:25,354 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+INFO 2023-10-12 18:49:54,116 basehttp 6132 7680 "GET /blog/post_by_authors/?name=Name4 HTTP/1.1" 200 15
+INFO 2023-10-12 18:51:35,484 autoreload 6132 520 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-12 18:51:35,999 autoreload 11896 1588 Watching for file changes with StatReloader
+INFO 2023-10-12 18:51:37,916 basehttp 11896 12284 "GET /blog/post_by_authors/?name=Name4 HTTP/1.1" 200 151
