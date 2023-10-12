@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'myapp',
     'myapp_task5',
     'myapp_sem1',
+    'myapp_sem2',
+    'myapp_blog',
+    'myapp_shop',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +58,7 @@ ROOT_URLCONF = 'myprojectgb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

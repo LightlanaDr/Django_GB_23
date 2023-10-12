@@ -165,3 +165,2224 @@ INFO 2023-10-10 23:09:37,303 views 11764 2944 Главная страница открыта
 INFO 2023-10-10 23:09:37,304 basehttp 11764 2944 "GET /sem1/main/ HTTP/1.1" 200 408
 INFO 2023-10-10 23:09:38,544 views 11764 2944 Страница "О нас" открыта
 INFO 2023-10-10 23:09:38,545 basehttp 11764 2944 "GET /sem1/about/ HTTP/1.1" 200 538
+INFO 2023-10-10 23:12:41,450 views 11764 2944 Главная страница открыта
+INFO 2023-10-10 23:12:41,450 basehttp 11764 2944 "GET /sem1/main/ HTTP/1.1" 200 408
+INFO 2023-10-11 21:59:05,662 autoreload 11220 1212 Watching for file changes with StatReloader
+INFO 2023-10-11 21:59:06,920 basehttp 11220 6440 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-11 21:59:07,064 log 11220 6440 Not Found: /favicon.ico
+WARNING 2023-10-11 21:59:07,064 basehttp 11220 6440 "GET /favicon.ico HTTP/1.1" 404 2592
+WARNING 2023-10-11 21:59:10,098 log 11220 6440 Not Found: /docs
+WARNING 2023-10-11 21:59:10,099 basehttp 11220 6440 "GET /docs HTTP/1.1" 404 2571
+INFO 2023-10-11 21:59:16,791 basehttp 11220 6440 "GET /sem2/one HTTP/1.1" 301 0
+ERROR 2023-10-11 21:59:16,839 log 11220 8084 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 21:59:16,839 basehttp 11220 8084 "GET /sem2/one/ HTTP/1.1" 500 69924
+INFO 2023-10-11 22:00:37,265 autoreload 11220 1212 N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py changed, reloading.
+INFO 2023-10-11 22:00:37,781 autoreload 10716 1404 Watching for file changes with StatReloader
+INFO 2023-10-11 22:00:38,997 basehttp 10716 8956 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-11 22:00:41,924 log 10716 8956 Not Found: /docs
+WARNING 2023-10-11 22:00:41,924 basehttp 10716 8956 "GET /docs HTTP/1.1" 404 2571
+ERROR 2023-10-11 22:00:54,105 log 10716 8956 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:00:54,105 basehttp 10716 8956 "GET /sem2/one/ HTTP/1.1" 500 69925
+INFO 2023-10-11 22:30:17,212 autoreload 7888 11220 Watching for file changes with StatReloader
+INFO 2023-10-11 22:30:18,739 basehttp 7888 5436 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-11 22:30:31,882 log 7888 5436 Not Found: /docs
+WARNING 2023-10-11 22:30:31,882 basehttp 7888 5436 "GET /docs HTTP/1.1" 404 2571
+ERROR 2023-10-11 22:30:37,318 log 7888 5436 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:30:37,318 basehttp 7888 5436 "GET /sem2/one/ HTTP/1.1" 500 69910
+INFO 2023-10-11 22:34:06,460 autoreload 7888 11220 N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py changed, reloading.
+INFO 2023-10-11 22:34:06,966 autoreload 664 2052 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:34:07,283 log 664 9500 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:34:07,283 basehttp 664 9500 "GET /sem2/one/ HTTP/1.1" 500 70040
+ERROR 2023-10-11 22:34:10,854 log 664 9500 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    res_w = HeadsTails(res_time=timezone.now, res=res)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 567, in __init__
+    raise TypeError(
+TypeError: HeadsTails() got unexpected keyword arguments: 'res_time'
+ERROR 2023-10-11 22:34:10,854 basehttp 664 9500 "GET /sem2/one/ HTTP/1.1" 500 70049
+INFO 2023-10-11 22:45:23,210 autoreload 5952 1336 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:45:26,630 log 5952 1924 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 13, in staticstic
+    list_res = query[-n:]
+TypeError: bad operand type for unary -: 'str'
+ERROR 2023-10-11 22:45:26,630 basehttp 5952 1924 "GET /sem2/one/ HTTP/1.1" 500 67004
+INFO 2023-10-11 22:46:09,563 autoreload 5952 1336 N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py changed, reloading.
+INFO 2023-10-11 22:46:10,096 autoreload 6448 3352 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:46:12,761 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:12,761 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 67564
+ERROR 2023-10-11 22:46:13,879 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:13,879 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 67704
+ERROR 2023-10-11 22:46:14,429 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:14,429 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 67856
+ERROR 2023-10-11 22:46:14,887 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:14,903 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68002
+ERROR 2023-10-11 22:46:15,197 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:15,197 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68060
+ERROR 2023-10-11 22:46:15,467 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:15,467 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68130
+ERROR 2023-10-11 22:46:15,797 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:15,797 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68203
+ERROR 2023-10-11 22:46:16,176 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:16,176 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68270
+ERROR 2023-10-11 22:46:16,529 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:16,529 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68346
+ERROR 2023-10-11 22:46:16,807 log 6448 11568 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 16, in staticstic
+    if 'Orel' in item:
+TypeError: argument of type 'HeadsTails' is not iterable
+ERROR 2023-10-11 22:46:16,807 basehttp 6448 11568 "GET /sem2/one/ HTTP/1.1" 500 68422
+INFO 2023-10-11 22:49:35,369 autoreload 6448 3352 N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py changed, reloading.
+INFO 2023-10-11 22:49:35,902 autoreload 8276 8480 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:49:36,704 log 8276 12872 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 17, in staticstic
+    dict_res['Orel'] += 1
+KeyError: 'Orel'
+ERROR 2023-10-11 22:49:36,704 basehttp 8276 12872 "GET /sem2/one/ HTTP/1.1" 500 68374
+WARNING 2023-10-11 22:49:40,974 log 8276 12872 Not Found: /sem2/one/5
+WARNING 2023-10-11 22:49:40,975 basehttp 8276 12872 "GET /sem2/one/5 HTTP/1.1" 404 2652
+WARNING 2023-10-11 22:49:44,547 log 8276 12872 Not Found: /sem2/one/5
+WARNING 2023-10-11 22:49:44,547 basehttp 8276 12872 "GET /sem2/one/5 HTTP/1.1" 404 2652
+ERROR 2023-10-11 22:50:50,847 log 8276 12872 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 17, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 17, in staticstic
+    dict_res['Orel'] += 1
+KeyError: 'Orel'
+ERROR 2023-10-11 22:50:50,863 basehttp 8276 12872 "GET /sem2/one/ HTTP/1.1" 500 68444
+INFO 2023-10-11 22:52:58,326 autoreload 8276 8480 N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py changed, reloading.
+INFO 2023-10-11 22:52:58,848 autoreload 10704 1268 Watching for file changes with StatReloader
+ERROR 2023-10-11 22:53:02,682 log 10704 5880 Internal Server Error: /sem2/one/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\views.py", line 15, in one
+    data = HeadsTails.staticstic(n)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py", line 19, in staticstic
+    dict_res['Reschka'] += 1
+KeyError: 'Reschka'
+ERROR 2023-10-11 22:53:02,682 basehttp 10704 5880 "GET /sem2/one/ HTTP/1.1" 500 68259
+INFO 2023-10-11 22:55:01,738 autoreload 10704 1268 N:\GB_DZ\Django\myprojectgb\myapp_sem2\models.py changed, reloading.
+INFO 2023-10-11 22:55:02,238 autoreload 12312 5260 Watching for file changes with StatReloader
+INFO 2023-10-11 22:55:07,926 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:17,456 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:18,604 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:19,323 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:19,955 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:20,508 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:21,140 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:21,676 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:22,241 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:22,844 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:23,292 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:23,697 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:24,096 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:24,543 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:24,999 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:25,437 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:25,901 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:26,963 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:27,563 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:30,950 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:55:31,451 basehttp 12312 11408 "GET /sem2/one/ HTTP/1.1" 200 25
+INFO 2023-10-11 22:57:04,712 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:28,365 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:28,618 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:28,833 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:29,118 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:29,339 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:29,763 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-11 22:58:30,001 basehttp 12312 11408 "GET /sem2/one/?n=10 HTTP/1.1" 200 25
+INFO 2023-10-12 18:45:50,662 autoreload 8680 8332 Watching for file changes with StatReloader
+INFO 2023-10-12 18:45:52,552 basehttp 8680 6404 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-12 18:45:52,705 log 8680 6404 Not Found: /favicon.ico
+WARNING 2023-10-12 18:45:52,706 basehttp 8680 6404 "GET /favicon.ico HTTP/1.1" 404 2697
+WARNING 2023-10-12 18:46:06,280 log 8680 6404 Not Found: /post
+WARNING 2023-10-12 18:46:06,280 basehttp 8680 6404 "GET /post HTTP/1.1" 404 2676
+WARNING 2023-10-12 18:46:31,149 log 8680 6404 Not Found: /post/post_by_authors/2
+WARNING 2023-10-12 18:46:31,149 basehttp 8680 6404 "GET /post/post_by_authors/2 HTTP/1.1" 404 2730
+WARNING 2023-10-12 18:46:39,292 log 8680 6404 Not Found: /post/post_by_authors
+WARNING 2023-10-12 18:46:39,293 basehttp 8680 6404 "GET /post/post_by_authors HTTP/1.1" 404 2724
+WARNING 2023-10-12 18:47:47,336 log 8680 6404 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:47:47,337 basehttp 8680 6404 "GET /post/post_by_authors/?name=Name_4 HTTP/1.1" 404 2739
+INFO 2023-10-12 18:48:31,589 autoreload 8680 8332 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-12 18:48:32,119 autoreload 5612 1948 Watching for file changes with StatReloader
+WARNING 2023-10-12 18:49:06,206 log 5612 2576 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:06,206 basehttp 5612 2576 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:08,763 log 5612 2576 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:08,764 basehttp 5612 2576 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+INFO 2023-10-12 18:49:16,416 autoreload 5612 1948 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-12 18:49:16,920 autoreload 6132 520 Watching for file changes with StatReloader
+WARNING 2023-10-12 18:49:21,613 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:21,613 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:22,593 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:22,593 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:22,964 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:22,964 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,196 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,196 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,411 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,411 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,633 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,633 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:23,851 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:23,851 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,068 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,068 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,284 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,284 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,502 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,502 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,734 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,734 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:24,951 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:24,951 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:25,153 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:25,168 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+WARNING 2023-10-12 18:49:25,354 log 6132 7680 Not Found: /post/post_by_authors/
+WARNING 2023-10-12 18:49:25,354 basehttp 6132 7680 "GET /post/post_by_authors/?name=Name4 HTTP/1.1" 404 2738
+INFO 2023-10-12 18:49:54,116 basehttp 6132 7680 "GET /blog/post_by_authors/?name=Name4 HTTP/1.1" 200 15
+INFO 2023-10-12 18:51:35,484 autoreload 6132 520 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-12 18:51:35,999 autoreload 11896 1588 Watching for file changes with StatReloader
+INFO 2023-10-12 18:51:37,916 basehttp 11896 12284 "GET /blog/post_by_authors/?name=Name4 HTTP/1.1" 200 151
+INFO 2023-10-16 23:12:43,199 autoreload 4908 4136 N:\GB_DZ\Django\myprojectgb\myprojectgb\settings.py changed, reloading.
+INFO 2023-10-16 23:12:43,773 autoreload 3708 4124 Watching for file changes with StatReloader
+INFO 2023-10-16 23:12:48,100 basehttp 3708 2296 "GET / HTTP/1.1" 200 13
+WARNING 2023-10-16 23:12:48,254 log 3708 2296 Not Found: /favicon.ico
+WARNING 2023-10-16 23:12:48,254 basehttp 3708 2296 "GET /favicon.ico HTTP/1.1" 404 2802
+INFO 2023-10-16 23:12:50,318 basehttp 3708 2296 "GET / HTTP/1.1" 200 13
+INFO 2023-10-18 20:29:35,795 autoreload 10420 4420 Watching for file changes with StatReloader
+INFO 2023-10-18 20:32:14,313 autoreload 10420 4420 N:\GB_DZ\Django\myprojectgb\myapp\views.py changed, reloading.
+INFO 2023-10-18 20:32:14,885 autoreload 10592 10252 Watching for file changes with StatReloader
+INFO 2023-10-18 20:33:34,396 autoreload 10592 10252 N:\GB_DZ\Django\myprojectgb\myapp\urls.py changed, reloading.
+INFO 2023-10-18 20:33:40,086 autoreload 3268 11228 Watching for file changes with StatReloader
+INFO 2023-10-18 20:33:41,733 basehttp 3268 11096 "GET / HTTP/1.1" 200 142
+WARNING 2023-10-18 20:33:41,885 log 3268 11096 Not Found: /favicon.ico
+WARNING 2023-10-18 20:33:41,886 basehttp 3268 11096 "GET /favicon.ico HTTP/1.1" 404 2969
+INFO 2023-10-18 20:33:48,572 basehttp 3268 11096 "GET /about HTTP/1.1" 301 0
+ERROR 2023-10-18 20:33:48,635 log 3268 5520 Internal Server Error: /about/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp\views.py", line 10, in about
+    return render(request, "about.html")
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+ERROR 2023-10-18 20:33:48,637 basehttp 3268 5520 "GET /about/ HTTP/1.1" 500 76734
+INFO 2023-10-18 20:34:30,868 autoreload 3268 11228 N:\GB_DZ\Django\myprojectgb\myapp\views.py changed, reloading.
+INFO 2023-10-18 20:34:34,372 autoreload 8132 11092 Watching for file changes with StatReloader
+INFO 2023-10-18 20:34:40,015 basehttp 8132 3696 "GET /about/ HTTP/1.1" 200 204
+INFO 2023-10-18 21:39:45,631 autoreload 8132 11092 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 21:39:46,323 autoreload 296 11248 Watching for file changes with StatReloader
+INFO 2023-10-18 21:59:25,840 autoreload 296 11248 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 21:59:26,389 autoreload 1448 10320 Watching for file changes with StatReloader
+INFO 2023-10-18 22:35:34,395 autoreload 1448 10320 N:\GB_DZ\Django\myprojectgb\myapp_task5\urls.py changed, reloading.
+INFO 2023-10-18 22:35:35,001 autoreload 9460 6848 Watching for file changes with StatReloader
+INFO 2023-10-18 22:35:41,170 basehttp 9460 11036 "GET / HTTP/1.1" 200 142
+ERROR 2023-10-18 22:35:50,511 log 9460 11036 Internal Server Error: /task5/one/5
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 13, in one
+    context['res'].append(random.choice(['Орёл', 'Решка']))
+TypeError: 'set' object is not subscriptable
+ERROR 2023-10-18 22:35:50,511 basehttp 9460 11036 "GET /task5/one/5 HTTP/1.1" 500 63692
+INFO 2023-10-18 22:37:26,027 autoreload 9460 6848 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 22:37:26,545 autoreload 2760 7584 Watching for file changes with StatReloader
+WARNING 2023-10-18 22:37:28,592 log 2760 8400 Not Found: /task5/one
+WARNING 2023-10-18 22:37:28,593 basehttp 2760 8400 "GET /task5/one HTTP/1.1" 404 3381
+ERROR 2023-10-18 22:37:47,431 log 2760 8400 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 13, in one
+    while n > 0:
+TypeError: '>' not supported between instances of 'str' and 'int'
+ERROR 2023-10-18 22:37:47,431 basehttp 2760 8400 "GET /task5/one/10 HTTP/1.1" 500 63832
+INFO 2023-10-18 22:38:36,632 autoreload 2760 7584 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 22:38:37,164 autoreload 11652 8872 Watching for file changes with StatReloader
+ERROR 2023-10-18 22:38:38,950 log 11652 10436 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 14, in one
+    context['res'].append(random.choice(['Орёл', 'Решка']))
+TypeError: 'set' object is not subscriptable
+ERROR 2023-10-18 22:38:38,950 basehttp 11652 10436 "GET /task5/one/10 HTTP/1.1" 500 63898
+ERROR 2023-10-18 22:38:40,038 log 11652 10436 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 14, in one
+    context['res'].append(random.choice(['Орёл', 'Решка']))
+TypeError: 'set' object is not subscriptable
+ERROR 2023-10-18 22:38:40,038 basehttp 11652 10436 "GET /task5/one/10 HTTP/1.1" 500 63898
+ERROR 2023-10-18 22:38:40,705 log 11652 10436 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 14, in one
+    context['res'].append(random.choice(['Орёл', 'Решка']))
+TypeError: 'set' object is not subscriptable
+ERROR 2023-10-18 22:38:40,705 basehttp 11652 10436 "GET /task5/one/10 HTTP/1.1" 500 63898
+ERROR 2023-10-18 22:38:40,938 log 11652 10436 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 14, in one
+    context['res'].append(random.choice(['Орёл', 'Решка']))
+TypeError: 'set' object is not subscriptable
+ERROR 2023-10-18 22:38:40,938 basehttp 11652 10436 "GET /task5/one/10 HTTP/1.1" 500 63898
+INFO 2023-10-18 22:39:22,600 autoreload 11652 8872 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 22:39:23,141 autoreload 11884 11692 Watching for file changes with StatReloader
+INFO 2023-10-18 22:39:23,805 basehttp 11884 11456 "GET /task5/one/10 HTTP/1.1" 200 204
+INFO 2023-10-18 22:39:26,232 basehttp 11884 11456 "GET /task5/one/10 HTTP/1.1" 200 204
+INFO 2023-10-18 22:39:27,889 basehttp 11884 11456 "GET /task5/one/10 HTTP/1.1" 200 204
+INFO 2023-10-18 22:39:55,153 autoreload 11884 11692 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 22:39:55,692 autoreload 8872 11652 Watching for file changes with StatReloader
+ERROR 2023-10-18 22:39:58,665 log 8872 8628 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:39:58,681 basehttp 8872 8628 "GET /task5/one/10 HTTP/1.1" 500 79310
+ERROR 2023-10-18 22:40:00,304 log 8872 8628 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:40:00,304 basehttp 8872 8628 "GET /task5/one/10 HTTP/1.1" 500 79310
+ERROR 2023-10-18 22:40:01,202 log 8872 8628 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:40:01,202 basehttp 8872 8628 "GET /task5/one/10 HTTP/1.1" 500 79310
+ERROR 2023-10-18 22:40:01,654 log 8872 8628 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:40:01,654 basehttp 8872 8628 "GET /task5/one/10 HTTP/1.1" 500 79316
+ERROR 2023-10-18 22:40:01,904 log 8872 8628 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:40:01,904 basehttp 8872 8628 "GET /task5/one/10 HTTP/1.1" 500 79304
+INFO 2023-10-18 22:40:30,869 autoreload 8872 11652 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 22:40:31,399 autoreload 780 4444 Watching for file changes with StatReloader
+ERROR 2023-10-18 22:40:32,517 log 780 11296 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:40:32,517 basehttp 780 11296 "GET /task5/one/10 HTTP/1.1" 500 79891
+ERROR 2023-10-18 22:40:33,518 log 780 11296 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:40:33,518 basehttp 780 11296 "GET /task5/one/10 HTTP/1.1" 500 79909
+ERROR 2023-10-18 22:41:58,304 log 780 11296 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:41:58,304 basehttp 780 11296 "GET /task5/one/10 HTTP/1.1" 500 79909
+ERROR 2023-10-18 22:41:59,108 log 780 11296 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:41:59,121 basehttp 780 11296 "GET /task5/one/10 HTTP/1.1" 500 79903
+ERROR 2023-10-18 22:41:59,341 log 780 11296 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:41:59,341 basehttp 780 11296 "GET /task5/one/10 HTTP/1.1" 500 79885
+ERROR 2023-10-18 22:41:59,525 log 780 11296 Internal Server Error: /task5/one/10
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:41:59,525 basehttp 780 11296 "GET /task5/one/10 HTTP/1.1" 500 79891
+INFO 2023-10-18 22:50:00,194 autoreload 780 4444 N:\GB_DZ\Django\myprojectgb\myapp_task5\urls.py changed, reloading.
+INFO 2023-10-18 22:50:00,732 autoreload 3368 12144 Watching for file changes with StatReloader
+INFO 2023-10-18 22:50:05,023 basehttp 3368 7452 "GET /task5/one/10 HTTP/1.1" 301 0
+ERROR 2023-10-18 22:50:05,069 log 3368 8324 Internal Server Error: /task5/one/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py", line 16, in one
+    return render(request, "myapp_task5/one.html", context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_task5/one.html
+ERROR 2023-10-18 22:50:05,069 basehttp 3368 8324 "GET /task5/one/10/ HTTP/1.1" 500 79897
+INFO 2023-10-18 22:53:36,269 autoreload 3368 12144 N:\GB_DZ\Django\myprojectgb\myapp_task5\views.py changed, reloading.
+INFO 2023-10-18 22:53:36,808 autoreload 10808 1204 Watching for file changes with StatReloader
+INFO 2023-10-18 22:53:41,526 basehttp 10808 5196 "GET /task5/one/10/ HTTP/1.1" 200 331
+INFO 2023-10-18 22:53:53,556 basehttp 10808 5196 "GET /task5/one/5 HTTP/1.1" 301 0
+INFO 2023-10-18 22:53:53,559 basehttp 10808 5988 "GET /task5/one/5/ HTTP/1.1" 200 219
+INFO 2023-10-18 22:54:25,529 basehttp 10808 5988 "GET /task5/one/7 HTTP/1.1" 301 0
+INFO 2023-10-18 22:54:25,532 basehttp 10808 11192 "GET /task5/one/7/ HTTP/1.1" 200 265
+INFO 2023-10-19 16:11:17,632 autoreload 1588 4960 Watching for file changes with StatReloader
+INFO 2023-10-19 16:11:19,144 basehttp 1588 5040 "GET / HTTP/1.1" 200 142
+WARNING 2023-10-19 16:11:19,295 log 1588 5040 Not Found: /favicon.ico
+WARNING 2023-10-19 16:11:19,295 basehttp 1588 5040 "GET /favicon.ico HTTP/1.1" 404 2969
+WARNING 2023-10-19 16:11:38,674 log 1588 5040 Not Found: /blog/
+WARNING 2023-10-19 16:11:38,675 basehttp 1588 5040 "GET /blog/ HTTP/1.1" 404 3795
+INFO 2023-10-19 16:11:55,195 basehttp 1588 5040 "GET /blog/author/5 HTTP/1.1" 301 0
+INFO 2023-10-19 16:11:55,205 basehttp 1588 6220 "GET /blog/author/5/ HTTP/1.1" 200 1817
+ERROR 2023-10-19 16:12:23,169 log 1588 6220 Internal Server Error: /blog/post/50/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py", line 37, in post_full
+    return render(request, 'myapp3/post_full.html', {'post': post})
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/post_full.html
+ERROR 2023-10-19 16:12:23,169 basehttp 1588 6220 "GET /blog/post/50/ HTTP/1.1" 500 78711
+INFO 2023-10-19 16:18:10,139 autoreload 1588 4960 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 16:18:10,728 autoreload 8172 7112 Watching for file changes with StatReloader
+INFO 2023-10-19 16:27:55,511 autoreload 8172 7112 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 16:27:56,027 autoreload 6080 4500 Watching for file changes with StatReloader
+INFO 2023-10-19 16:40:51,884 autoreload 6080 4500 N:\GB_DZ\Django\myprojectgb\myapp_blog\urls.py changed, reloading.
+INFO 2023-10-19 16:40:52,403 autoreload 1724 428 Watching for file changes with StatReloader
+ERROR 2023-10-19 16:41:11,727 log 1724 8708 Internal Server Error: /blog/post/all/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\response.py", line 74, in resolve_template
+    return get_template(template, using=self.using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: posts.html
+ERROR 2023-10-19 16:41:11,727 basehttp 1724 8708 "GET /blog/post/all/ HTTP/1.1" 500 77944
+INFO 2023-10-19 16:42:57,556 autoreload 1724 428 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 16:42:58,107 autoreload 4384 10052 Watching for file changes with StatReloader
+INFO 2023-10-19 16:42:59,371 basehttp 4384 1596 "GET /blog/post/all/ HTTP/1.1" 200 19547
+INFO 2023-10-19 17:28:42,674 autoreload 4384 10052 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 17:28:43,201 autoreload 3724 10248 Watching for file changes with StatReloader
+ERROR 2023-10-19 17:28:43,388 log 3724 4772 Internal Server Error: /blog/post/26/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py", line 38, in post_full
+    return render(request, 'myapp3/post_full.html', {'post': post})
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/post_full.html
+ERROR 2023-10-19 17:28:43,388 basehttp 3724 4772 "GET /blog/post/26/ HTTP/1.1" 500 79784
+INFO 2023-10-19 21:16:15,481 autoreload 3724 10248 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 21:16:16,196 autoreload 14264 8804 Watching for file changes with StatReloader
+INFO 2023-10-19 21:16:18,212 basehttp 14264 12516 "GET /blog/post/all/ HTTP/1.1" 200 19347
+WARNING 2023-10-19 21:16:19,399 log 14264 12516 Not Found: /blog/post/all/view_post/16
+WARNING 2023-10-19 21:16:19,399 basehttp 14264 12516 "GET /blog/post/all/view_post/16 HTTP/1.1" 404 4237
+WARNING 2023-10-19 21:16:20,589 log 14264 12516 Not Found: /blog/post/all/view_post/16
+WARNING 2023-10-19 21:16:20,589 basehttp 14264 12516 "GET /blog/post/all/view_post/16 HTTP/1.1" 404 4237
+WARNING 2023-10-19 21:16:21,893 log 14264 12516 Not Found: /blog/post/all/view_post/16
+WARNING 2023-10-19 21:16:21,893 basehttp 14264 12516 "GET /blog/post/all/view_post/16 HTTP/1.1" 404 4237
+INFO 2023-10-19 21:16:29,550 basehttp 14264 12516 "GET /blog/post/all/ HTTP/1.1" 200 19347
+INFO 2023-10-19 21:16:56,882 basehttp 14264 12516 "GET /blog/post/all/ HTTP/1.1" 200 19547
+INFO 2023-10-19 21:16:58,106 basehttp 14264 12516 "GET /blog/post/2/ HTTP/1.1" 200 158
+INFO 2023-10-19 21:18:19,565 basehttp 14264 12516 "GET /blog/post/1/ HTTP/1.1" 200 158
+INFO 2023-10-19 21:18:24,914 basehttp 14264 12516 "GET /blog/post/1/ HTTP/1.1" 200 158
+INFO 2023-10-19 21:18:25,490 basehttp 14264 12516 "GET /blog/post/1/ HTTP/1.1" 200 158
+INFO 2023-10-19 21:18:25,713 basehttp 14264 12516 "GET /blog/post/1/ HTTP/1.1" 200 158
+INFO 2023-10-19 21:19:17,749 autoreload 14264 8804 N:\GB_DZ\Django\myprojectgb\myapp_blog\urls.py changed, reloading.
+INFO 2023-10-19 21:19:18,285 autoreload 10384 6948 Watching for file changes with StatReloader
+INFO 2023-10-19 21:19:20,822 basehttp 10384 13668 "GET /blog/post/1/ HTTP/1.1" 200 135
+INFO 2023-10-19 21:19:23,229 basehttp 10384 13668 "GET /blog/post/1/ HTTP/1.1" 200 135
+INFO 2023-10-19 21:19:28,880 basehttp 10384 13668 "GET /blog/post/all/ HTTP/1.1" 200 19547
+INFO 2023-10-19 21:19:31,112 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 135
+INFO 2023-10-19 21:19:48,713 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 120
+INFO 2023-10-19 21:19:49,520 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 120
+INFO 2023-10-19 21:19:49,809 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 120
+INFO 2023-10-19 21:19:50,040 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 120
+INFO 2023-10-19 21:19:50,288 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 120
+INFO 2023-10-19 21:19:50,529 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 120
+INFO 2023-10-19 21:20:28,262 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:20:29,783 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:21:57,843 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:21:59,906 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:22:01,186 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:22:01,514 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:22:01,738 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:22:01,963 basehttp 10384 13668 "GET /blog/post/16/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:22:25,569 basehttp 10384 13668 "GET /blog/post/15/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:23:16,353 autoreload 10384 6948 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 21:23:16,900 autoreload 13824 13908 Watching for file changes with StatReloader
+INFO 2023-10-19 21:23:19,030 basehttp 13824 6968 "GET /blog/post/all/ HTTP/1.1" 200 19547
+INFO 2023-10-19 21:23:20,401 basehttp 13824 6968 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:23:23,054 basehttp 13824 6968 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:23:23,398 basehttp 13824 6968 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:23:23,686 basehttp 13824 6968 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:23:23,902 basehttp 13824 6968 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:27,593 autoreload 13824 13908 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 21:24:28,130 autoreload 11576 4324 Watching for file changes with StatReloader
+INFO 2023-10-19 21:24:28,366 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:28,968 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:29,279 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:29,526 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:29,751 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:29,983 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:30,214 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:30,687 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:30,958 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:31,183 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:31,415 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:31,646 basehttp 11576 1392 "GET /blog/post/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:24:37,813 basehttp 11576 1392 "GET /blog/post/a/12/ HTTP/1.1" 200 158
+INFO 2023-10-19 21:25:17,073 autoreload 11576 4324 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 21:25:17,637 autoreload 5040 11252 Watching for file changes with StatReloader
+INFO 2023-10-19 21:25:17,847 basehttp 5040 12784 "GET /blog/post/a/12/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:25:18,909 basehttp 5040 12784 "GET /blog/post/a/12/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:25:19,397 basehttp 5040 12784 "GET /blog/post/a/12/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:25:19,798 basehttp 5040 12784 "GET /blog/post/a/12/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:25:20,061 basehttp 5040 12784 "GET /blog/post/a/12/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:25:55,092 autoreload 5040 11252 N:\GB_DZ\Django\myprojectgb\myapp_blog\urls.py changed, reloading.
+INFO 2023-10-19 21:25:55,638 autoreload 14252 13324 Watching for file changes with StatReloader
+INFO 2023-10-19 21:25:57,252 basehttp 14252 13348 "GET /blog/post/a/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:25:58,892 basehttp 14252 13348 "GET /blog/post/a/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:26:04,735 basehttp 14252 13348 "GET /blog/post/a/12/ HTTP/1.1" 200 104
+INFO 2023-10-19 21:26:13,648 basehttp 14252 13348 "GET /blog/post/all/ HTTP/1.1" 200 19547
+INFO 2023-10-19 21:26:15,618 basehttp 14252 13348 "GET /blog/post/16/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:26:17,646 basehttp 14252 13348 "GET /blog/post/16/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:26:18,263 basehttp 14252 13348 "GET /blog/post/16/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:26:18,694 basehttp 14252 13348 "GET /blog/post/16/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:26:19,037 basehttp 14252 13348 "GET /blog/post/16/ HTTP/1.1" 200 168
+INFO 2023-10-19 21:26:22,650 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:26:25,510 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:26:26,023 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:26:26,270 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:26:26,494 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:26:26,694 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:26:26,919 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:26:27,135 basehttp 14252 13348 "GET /blog/post/21/ HTTP/1.1" 200 167
+INFO 2023-10-19 21:29:05,415 autoreload 14252 13324 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-19 21:29:05,946 autoreload 13548 1044 Watching for file changes with StatReloader
+INFO 2023-10-19 22:02:08,803 autoreload 13548 1044 N:\GB_DZ\Django\myprojectgb\myapp_blog\models.py changed, reloading.
+INFO 2023-10-19 22:02:09,328 autoreload 12324 7968 Watching for file changes with StatReloader
+INFO 2023-10-19 22:04:18,748 autoreload 12324 7968 N:\GB_DZ\Django\myprojectgb\myapp_blog\urls.py changed, reloading.
+INFO 2023-10-19 22:04:19,280 autoreload 7860 13696 Watching for file changes with StatReloader
+INFO 2023-10-19 22:07:52,699 autoreload 13072 11284 Watching for file changes with StatReloader
+INFO 2023-10-19 22:08:07,534 basehttp 13072 13424 "GET / HTTP/1.1" 200 142
+INFO 2023-10-19 22:08:14,827 basehttp 13072 13424 "GET /blog/post/all/ HTTP/1.1" 200 19547
+INFO 2023-10-19 22:08:39,244 basehttp 13072 13424 "GET /blog/post/comment/6 HTTP/1.1" 301 0
+ERROR 2023-10-19 22:08:44,900 log 13072 13596 Internal Server Error: /blog/post/comment/6/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py", line 63, in post_comm
+    post.save()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+INFO 2023-10-19 22:08:44,905 basehttp 13072 13596 - Broken pipe from ('127.0.0.1', 55315)
+ERROR 2023-10-19 22:08:48,187 log 13072 11612 Internal Server Error: /blog/post/comment/6/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py", line 63, in post_comm
+    post.save()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+ERROR 2023-10-19 22:08:48,190 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 500 145108
+INFO 2023-10-19 22:09:19,984 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 357
+INFO 2023-10-19 22:10:31,602 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 357
+INFO 2023-10-19 22:10:32,376 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 357
+INFO 2023-10-19 22:10:32,826 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 357
+INFO 2023-10-19 22:10:33,329 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 357
+INFO 2023-10-19 22:10:33,746 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 357
+INFO 2023-10-19 22:13:41,931 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 378
+INFO 2023-10-19 22:14:01,827 basehttp 13072 11612 "GET /blog/post/comment/2/ HTTP/1.1" 200 236
+INFO 2023-10-19 22:15:04,595 basehttp 13072 11612 "GET /blog/post/comment/6/ HTTP/1.1" 200 378
+INFO 2023-10-20 16:55:11,134 autoreload 7872 1888 Watching for file changes with StatReloader
+INFO 2023-10-20 17:10:56,129 autoreload 7872 1888 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:10:56,679 autoreload 9540 11696 Watching for file changes with StatReloader
+INFO 2023-10-20 17:24:39,023 autoreload 9540 11696 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:24:39,581 autoreload 6868 11784 Watching for file changes with StatReloader
+INFO 2023-10-20 17:31:06,528 autoreload 6868 11784 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:31:07,075 autoreload 12248 10372 Watching for file changes with StatReloader
+INFO 2023-10-20 17:32:31,959 autoreload 12248 10372 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:32:32,478 autoreload 5692 6624 Watching for file changes with StatReloader
+INFO 2023-10-20 17:34:26,015 autoreload 5692 6624 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:34:26,537 autoreload 9844 11800 Watching for file changes with StatReloader
+INFO 2023-10-20 17:46:53,968 autoreload 9844 11800 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:46:54,509 autoreload 4764 11512 Watching for file changes with StatReloader
+INFO 2023-10-20 17:51:55,014 autoreload 4764 11512 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:51:55,531 autoreload 8040 7804 Watching for file changes with StatReloader
+INFO 2023-10-20 17:54:41,240 autoreload 5404 1972 Watching for file changes with StatReloader
+INFO 2023-10-20 17:56:21,387 autoreload 5404 1972 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:56:21,922 autoreload 9672 8380 Watching for file changes with StatReloader
+INFO 2023-10-20 17:56:24,615 basehttp 9672 2348 "GET / HTTP/1.1" 200 142
+WARNING 2023-10-20 17:56:24,748 log 9672 2348 Not Found: /favicon.ico
+WARNING 2023-10-20 17:56:24,749 basehttp 9672 2348 "GET /favicon.ico HTTP/1.1" 404 2969
+WARNING 2023-10-20 17:56:55,018 log 9672 2348 Not Found: /shop/
+WARNING 2023-10-20 17:56:55,019 basehttp 9672 2348 "GET /shop/ HTTP/1.1" 404 3030
+INFO 2023-10-20 17:58:30,021 autoreload 9672 8380 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 17:58:30,549 autoreload 11676 9312 Watching for file changes with StatReloader
+WARNING 2023-10-20 17:58:53,008 log 11676 2088 Not Found: /shop/user_orders/
+WARNING 2023-10-20 17:58:53,008 basehttp 11676 2088 "GET /shop/user_orders/ HTTP/1.1" 404 3086
+INFO 2023-10-20 17:58:59,969 basehttp 11676 2088 "GET /shop/user_orders/7 HTTP/1.1" 301 0
+INFO 2023-10-20 17:58:59,983 basehttp 11676 10064 "GET /shop/user_orders/7/ HTTP/1.1" 200 861
+INFO 2023-10-20 18:02:25,195 autoreload 11676 9312 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:02:25,751 autoreload 7716 9624 Watching for file changes with StatReloader
+INFO 2023-10-20 18:02:57,889 autoreload 7716 9624 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:02:58,431 autoreload 11352 6808 Watching for file changes with StatReloader
+INFO 2023-10-20 18:04:05,667 autoreload 11352 6808 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:04:06,213 autoreload 1748 6284 Watching for file changes with StatReloader
+INFO 2023-10-20 18:06:11,017 autoreload 1748 6284 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:06:11,546 autoreload 10036 9424 Watching for file changes with StatReloader
+INFO 2023-10-20 18:08:22,701 autoreload 10036 9424 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:08:23,230 autoreload 3980 11292 Watching for file changes with StatReloader
+INFO 2023-10-20 18:08:31,695 autoreload 3980 11292 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:08:32,228 autoreload 11488 7456 Watching for file changes with StatReloader
+INFO 2023-10-20 18:10:32,733 autoreload 11488 7456 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:10:33,277 autoreload 10344 8040 Watching for file changes with StatReloader
+INFO 2023-10-20 18:12:34,117 basehttp 10344 7580 "GET /shop/user_orders/7/ HTTP/1.1" 200 1294
+INFO 2023-10-20 18:14:12,877 autoreload 10344 8040 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:14:13,423 autoreload 5356 7784 Watching for file changes with StatReloader
+INFO 2023-10-20 18:14:15,251 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:17,222 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:17,683 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:17,933 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:18,166 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:18,387 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:18,601 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:18,834 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:19,087 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:19,319 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:19,552 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:19,785 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:20,039 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:20,287 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:20,636 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:20,871 basehttp 5356 8788 "GET /shop/user_orders/7/ HTTP/1.1" 200 1118
+INFO 2023-10-20 18:14:33,269 autoreload 5356 7784 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:14:33,807 autoreload 8484 10040 Watching for file changes with StatReloader
+INFO 2023-10-20 18:14:34,733 basehttp 8484 2304 "GET /shop/user_orders/7/ HTTP/1.1" 200 1120
+INFO 2023-10-20 18:14:35,457 basehttp 8484 2304 "GET /shop/user_orders/7/ HTTP/1.1" 200 1120
+INFO 2023-10-20 18:14:36,001 basehttp 8484 2304 "GET /shop/user_orders/7/ HTTP/1.1" 200 1120
+INFO 2023-10-20 18:14:36,224 basehttp 8484 2304 "GET /shop/user_orders/7/ HTTP/1.1" 200 1120
+INFO 2023-10-20 18:14:36,436 basehttp 8484 2304 "GET /shop/user_orders/7/ HTTP/1.1" 200 1120
+INFO 2023-10-20 18:14:46,324 autoreload 8484 10040 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:14:46,860 autoreload 10928 3272 Watching for file changes with StatReloader
+INFO 2023-10-20 18:14:47,914 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:48,571 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:48,834 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:49,082 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:49,316 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:49,516 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:49,754 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:49,986 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:50,186 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:50,386 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:50,603 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:51,014 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:51,218 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:51,435 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:14:51,686 basehttp 10928 11592 "GET /shop/user_orders/7/ HTTP/1.1" 200 1122
+INFO 2023-10-20 18:15:22,861 autoreload 10928 3272 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:15:23,407 autoreload 12044 6284 Watching for file changes with StatReloader
+INFO 2023-10-20 18:16:30,252 autoreload 12044 6284 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:16:30,801 autoreload 8984 5216 Watching for file changes with StatReloader
+INFO 2023-10-20 18:17:06,767 autoreload 8984 5216 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:17:07,330 autoreload 8380 4572 Watching for file changes with StatReloader
+INFO 2023-10-20 18:17:11,231 basehttp 8380 10356 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:17:12,328 basehttp 8380 10356 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:17:12,663 basehttp 8380 10356 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:17:12,895 basehttp 8380 10356 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:17:13,096 basehttp 8380 10356 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:17:13,333 basehttp 8380 10356 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:18:07,186 autoreload 8380 4572 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:18:07,764 autoreload 11008 12064 Watching for file changes with StatReloader
+INFO 2023-10-20 18:19:25,989 autoreload 11008 12064 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:19:26,519 autoreload 5700 11340 Watching for file changes with StatReloader
+INFO 2023-10-20 18:19:28,523 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:29,553 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:30,087 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:30,354 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:30,587 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:30,792 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:31,009 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:31,561 basehttp 5700 5232 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:19:42,896 basehttp 5700 5232 "GET /shop/user_orders/9 HTTP/1.1" 301 0
+INFO 2023-10-20 18:19:42,902 basehttp 5700 32 "GET /shop/user_orders/9/ HTTP/1.1" 200 525
+INFO 2023-10-20 18:20:13,982 autoreload 5700 11340 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:20:14,499 autoreload 10772 3620 Watching for file changes with StatReloader
+INFO 2023-10-20 18:20:16,772 basehttp 10772 5404 "GET /shop/user_orders/9/ HTTP/1.1" 200 525
+INFO 2023-10-20 18:20:17,455 basehttp 10772 5404 "GET /shop/user_orders/9/ HTTP/1.1" 200 525
+INFO 2023-10-20 18:20:17,920 basehttp 10772 5404 "GET /shop/user_orders/9/ HTTP/1.1" 200 525
+INFO 2023-10-20 18:20:19,996 basehttp 10772 5404 "GET /shop/user_orders/7/ HTTP/1.1" 200 1298
+INFO 2023-10-20 18:20:33,353 autoreload 10772 3620 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:20:33,869 autoreload 4652 10352 Watching for file changes with StatReloader
+INFO 2023-10-20 18:20:34,007 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:21:36,250 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:21:36,770 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:21:37,019 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:21:37,252 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:21:37,506 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:21:37,769 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:21:37,971 basehttp 4652 840 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:23:40,912 autoreload 4652 10352 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:23:41,429 autoreload 11480 6640 Watching for file changes with StatReloader
+INFO 2023-10-20 18:23:41,781 basehttp 11480 4236 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:23:42,404 basehttp 11480 4236 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:23:42,636 basehttp 11480 4236 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:23:42,838 basehttp 11480 4236 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:23:43,054 basehttp 11480 4236 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:23:43,302 basehttp 11480 4236 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:23:43,630 basehttp 11480 4236 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:25:31,081 autoreload 11480 6640 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:25:31,660 autoreload 11292 11000 Watching for file changes with StatReloader
+INFO 2023-10-20 18:26:33,785 autoreload 11292 11000 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:26:34,310 autoreload 11860 8840 Watching for file changes with StatReloader
+INFO 2023-10-20 18:28:40,059 autoreload 11860 8840 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:28:40,583 autoreload 1736 10300 Watching for file changes with StatReloader
+INFO 2023-10-20 18:34:37,212 autoreload 1736 10300 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:34:37,786 autoreload 7580 10944 Watching for file changes with StatReloader
+INFO 2023-10-20 18:38:56,669 autoreload 7580 10944 N:\GB_DZ\Django\myprojectgb\myapp_shop\urls.py changed, reloading.
+INFO 2023-10-20 18:38:57,220 autoreload 11296 10300 Watching for file changes with StatReloader
+INFO 2023-10-20 18:41:20,797 autoreload 11296 10300 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:41:21,319 autoreload 7904 2952 Watching for file changes with StatReloader
+INFO 2023-10-20 18:42:48,401 autoreload 7904 2952 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:42:48,902 autoreload 2184 8484 Watching for file changes with StatReloader
+INFO 2023-10-20 18:43:14,674 autoreload 2184 8484 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:43:15,256 autoreload 4884 2004 Watching for file changes with StatReloader
+INFO 2023-10-20 18:44:53,692 autoreload 4884 2004 N:\GB_DZ\Django\myprojectgb\myapp_shop\urls.py changed, reloading.
+INFO 2023-10-20 18:44:54,239 autoreload 11484 2088 Watching for file changes with StatReloader
+INFO 2023-10-20 18:45:02,536 basehttp 11484 11836 "GET /shop/user_orders/7/7 HTTP/1.1" 301 0
+ERROR 2023-10-20 18:45:02,591 log 11484 5292 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: sorted_basket() got an unexpected keyword argument 'days'
+ERROR 2023-10-20 18:45:02,592 basehttp 11484 5292 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60218
+ERROR 2023-10-20 18:45:15,310 log 11484 5292 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: sorted_basket() got an unexpected keyword argument 'days'
+ERROR 2023-10-20 18:45:15,311 basehttp 11484 5292 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60355
+INFO 2023-10-20 18:45:19,867 basehttp 11484 5292 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:46:49,834 autoreload 8856 11408 Watching for file changes with StatReloader
+INFO 2023-10-20 18:46:53,679 basehttp 8856 6284 "GET /shop/user_orders/7/10 HTTP/1.1" 301 0
+ERROR 2023-10-20 18:46:53,775 log 8856 3980 Internal Server Error: /shop/user_orders/7/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, date_create_order__range=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'date_create_order' into field. Choices are: customer, customer_id, id, order_date, order_sum, products
+ERROR 2023-10-20 18:46:53,792 basehttp 8856 3980 "GET /shop/user_orders/7/10/ HTTP/1.1" 500 115116
+INFO 2023-10-20 18:47:41,338 autoreload 8856 11408 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:47:41,862 autoreload 3228 7352 Watching for file changes with StatReloader
+ERROR 2023-10-20 18:47:45,378 log 3228 10872 Internal Server Error: /shop/user_orders/7/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, order_date=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:47:45,378 basehttp 3228 10872 "GET /shop/user_orders/7/10/ HTTP/1.1" 500 135215
+ERROR 2023-10-20 18:47:46,346 log 3228 10872 Internal Server Error: /shop/user_orders/7/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, order_date=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:47:46,363 basehttp 3228 10872 "GET /shop/user_orders/7/10/ HTTP/1.1" 500 135215
+ERROR 2023-10-20 18:47:46,863 log 3228 10872 Internal Server Error: /shop/user_orders/7/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, order_date=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:47:46,863 basehttp 3228 10872 "GET /shop/user_orders/7/10/ HTTP/1.1" 500 135215
+ERROR 2023-10-20 18:47:47,097 log 3228 10872 Internal Server Error: /shop/user_orders/7/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, order_date=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:47:47,097 basehttp 3228 10872 "GET /shop/user_orders/7/10/ HTTP/1.1" 500 135179
+ERROR 2023-10-20 18:47:47,297 log 3228 10872 Internal Server Error: /shop/user_orders/7/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, order_date=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:47:47,297 basehttp 3228 10872 "GET /shop/user_orders/7/10/ HTTP/1.1" 500 135215
+ERROR 2023-10-20 18:47:47,547 log 3228 10872 Internal Server Error: /shop/user_orders/7/10/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, order_date=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:47:47,547 basehttp 3228 10872 "GET /shop/user_orders/7/10/ HTTP/1.1" 500 135215
+ERROR 2023-10-20 18:47:51,068 log 3228 10872 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 29, in sorted_basket
+    orders = Order.objects.filter(customer=customer, order_date=(before, today)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:47:51,068 basehttp 3228 10872 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 134994
+INFO 2023-10-20 18:51:21,158 autoreload 3228 7352 N:\GB_DZ\Django\myprojectgb\myapp_shop\urls.py changed, reloading.
+INFO 2023-10-20 18:51:21,718 autoreload 5780 5180 Watching for file changes with StatReloader
+INFO 2023-10-20 18:52:24,352 autoreload 5780 5180 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:52:24,887 autoreload 8380 10872 Watching for file changes with StatReloader
+ERROR 2023-10-20 18:53:21,039 log 8380 5652 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:53:21,040 basehttp 8380 5652 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60434
+ERROR 2023-10-20 18:53:21,729 log 8380 5652 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:53:21,730 basehttp 8380 5652 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60434
+ERROR 2023-10-20 18:53:22,192 log 8380 5652 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:53:22,193 basehttp 8380 5652 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60434
+ERROR 2023-10-20 18:53:22,463 log 8380 5652 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:53:22,464 basehttp 8380 5652 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60434
+ERROR 2023-10-20 18:53:22,721 log 8380 5652 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:53:22,722 basehttp 8380 5652 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60434
+ERROR 2023-10-20 18:53:22,960 log 8380 5652 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:53:22,961 basehttp 8380 5652 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60434
+ERROR 2023-10-20 18:53:23,176 log 8380 5652 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:53:23,177 basehttp 8380 5652 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60434
+INFO 2023-10-20 18:53:43,169 basehttp 8380 5652 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 18:54:14,388 autoreload 8380 10872 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:54:14,937 autoreload 13100 13104 Watching for file changes with StatReloader
+ERROR 2023-10-20 18:54:17,047 log 13100 5800 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: client_products_sorted() got an unexpected keyword argument 'user_id'
+ERROR 2023-10-20 18:54:17,047 basehttp 13100 5800 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60297
+INFO 2023-10-20 18:55:00,324 autoreload 13100 13104 N:\GB_DZ\Django\myprojectgb\myapp_shop\urls.py changed, reloading.
+INFO 2023-10-20 18:55:00,839 autoreload 12636 5176 Watching for file changes with StatReloader
+ERROR 2023-10-20 18:55:02,127 log 12636 11660 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:55:02,144 basehttp 12636 11660 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135115
+ERROR 2023-10-20 18:55:02,894 log 12636 11660 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:55:02,894 basehttp 12636 11660 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135151
+ERROR 2023-10-20 18:55:03,178 log 12636 11660 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:55:03,195 basehttp 12636 11660 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135151
+ERROR 2023-10-20 18:55:03,412 log 12636 11660 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:55:03,412 basehttp 12636 11660 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135151
+ERROR 2023-10-20 18:55:03,645 log 12636 11660 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:55:03,645 basehttp 12636 11660 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135151
+ERROR 2023-10-20 18:55:03,862 log 12636 11660 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:55:03,862 basehttp 12636 11660 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135151
+ERROR 2023-10-20 18:55:04,079 log 12636 11660 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:55:04,079 basehttp 12636 11660 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135151
+INFO 2023-10-20 18:56:10,002 autoreload 12636 5176 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:56:10,548 autoreload 10888 8224 Watching for file changes with StatReloader
+ERROR 2023-10-20 18:56:11,932 log 10888 520 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:11,932 basehttp 10888 520 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135187
+ERROR 2023-10-20 18:56:12,683 log 10888 520 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:12,700 basehttp 10888 520 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135187
+ERROR 2023-10-20 18:56:12,950 log 10888 520 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:12,950 basehttp 10888 520 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135187
+ERROR 2023-10-20 18:56:13,166 log 10888 520 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:13,166 basehttp 10888 520 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135187
+ERROR 2023-10-20 18:56:13,401 log 10888 520 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:13,401 basehttp 10888 520 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135187
+ERROR 2023-10-20 18:56:13,600 log 10888 520 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:13,600 basehttp 10888 520 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135187
+INFO 2023-10-20 18:56:38,633 autoreload 10888 8224 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 18:56:39,185 autoreload 13132 11392 Watching for file changes with StatReloader
+ERROR 2023-10-20 18:56:40,545 log 13132 13184 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:40,562 basehttp 13132 13184 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135170
+ERROR 2023-10-20 18:56:41,112 log 13132 13184 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:41,112 basehttp 13132 13184 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135134
+ERROR 2023-10-20 18:56:41,329 log 13132 13184 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:41,329 basehttp 13132 13184 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135170
+ERROR 2023-10-20 18:56:41,512 log 13132 13184 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 44, in client_products_sorted
+    orders = Order.objects.filter(customer=client, order_date=(before, now)).all()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1420, in to_python
+    parsed = parse_date(value)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\utils\dateparse.py", line 74, in parse_date
+    return datetime.date.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+ERROR 2023-10-20 18:56:41,512 basehttp 13132 13184 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 135170
+INFO 2023-10-20 19:05:47,760 autoreload 13132 11392 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:05:48,372 autoreload 1464 3176 Watching for file changes with StatReloader
+INFO 2023-10-20 19:06:21,266 autoreload 1464 3176 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:06:21,788 autoreload 13256 5588 Watching for file changes with StatReloader
+INFO 2023-10-20 19:08:00,758 autoreload 13256 5588 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:08:01,305 autoreload 11028 2136 Watching for file changes with StatReloader
+INFO 2023-10-20 19:08:13,794 autoreload 11028 2136 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:08:14,309 autoreload 10888 12604 Watching for file changes with StatReloader
+INFO 2023-10-20 19:08:41,076 autoreload 10888 12604 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:08:41,618 autoreload 2336 12752 Watching for file changes with StatReloader
+INFO 2023-10-20 19:09:16,890 autoreload 2336 12752 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:09:17,423 autoreload 1792 5688 Watching for file changes with StatReloader
+INFO 2023-10-20 19:10:07,991 autoreload 1792 5688 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:10:08,509 autoreload 10420 12412 Watching for file changes with StatReloader
+INFO 2023-10-20 19:12:01,121 autoreload 10420 12412 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:12:01,669 autoreload 10236 11932 Watching for file changes with StatReloader
+INFO 2023-10-20 19:13:00,186 autoreload 10236 11932 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:13:00,710 autoreload 12092 12176 Watching for file changes with StatReloader
+INFO 2023-10-20 19:14:00,255 autoreload 12092 12176 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 19:14:00,787 autoreload 2488 908 Watching for file changes with StatReloader
+INFO 2023-10-20 19:14:10,138 basehttp 2488 11500 "GET / HTTP/1.1" 200 142
+INFO 2023-10-20 19:14:16,504 basehttp 2488 11500 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+ERROR 2023-10-20 19:14:19,367 log 2488 11500 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: sorted_basket() got an unexpected keyword argument 'id_user'
+ERROR 2023-10-20 19:14:19,369 basehttp 2488 11500 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60508
+ERROR 2023-10-20 19:14:20,095 log 2488 11500 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: sorted_basket() got an unexpected keyword argument 'id_user'
+ERROR 2023-10-20 19:14:20,096 basehttp 2488 11500 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 60234
+INFO 2023-10-20 19:15:32,158 autoreload 12892 12256 Watching for file changes with StatReloader
+INFO 2023-10-20 19:15:32,474 basehttp 12892 4312 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+ERROR 2023-10-20 19:15:35,760 log 12892 4312 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 30, in sorted_basket
+    if order.order_date > before:
+TypeError: can't compare datetime.datetime to datetime.date
+ERROR 2023-10-20 19:15:35,760 basehttp 12892 4312 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 65686
+ERROR 2023-10-20 19:15:36,066 log 12892 4312 Internal Server Error: /shop/user_orders/7/7/
+Traceback (most recent call last):
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "N:\GB_DZ\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py", line 30, in sorted_basket
+    if order.order_date > before:
+TypeError: can't compare datetime.datetime to datetime.date
+ERROR 2023-10-20 19:15:36,066 basehttp 12892 4312 "GET /shop/user_orders/7/7/ HTTP/1.1" 500 65410
+INFO 2023-10-20 20:10:50,848 autoreload 5040 7752 Watching for file changes with StatReloader
+INFO 2023-10-20 20:10:58,008 basehttp 5040 13164 "GET /shop/user_orders/7/7/ HTTP/1.1" 200 149
+INFO 2023-10-20 20:10:58,410 basehttp 5040 13164 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 20:11:03,721 basehttp 5040 13164 "GET /shop/user_orders/7/7/ HTTP/1.1" 200 149
+INFO 2023-10-20 20:11:11,010 basehttp 5040 13164 "GET /shop/user_orders/7/14 HTTP/1.1" 301 0
+INFO 2023-10-20 20:11:11,016 basehttp 5040 12352 "GET /shop/user_orders/7/14/ HTTP/1.1" 200 729
+INFO 2023-10-20 20:15:57,882 basehttp 5040 12352 "GET /shop/user_orders/7/30 HTTP/1.1" 301 0
+INFO 2023-10-20 20:15:57,888 basehttp 5040 10412 "GET /shop/user_orders/7/30/ HTTP/1.1" 200 729
+INFO 2023-10-20 20:16:05,289 autoreload 5040 7752 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 20:16:05,854 autoreload 8276 6648 Watching for file changes with StatReloader
+INFO 2023-10-20 20:16:07,523 basehttp 8276 11460 "GET /shop/user_orders/7/30/ HTTP/1.1" 200 150
+INFO 2023-10-20 20:16:07,984 basehttp 8276 11460 "GET /shop/user_orders/7/30/ HTTP/1.1" 200 150
+INFO 2023-10-20 20:16:12,258 basehttp 8276 11460 "GET /shop/user_orders/7/ HTTP/1.1" 200 1190
+INFO 2023-10-20 20:16:15,271 basehttp 8276 11460 "GET /shop/user_orders/7/7/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:16:18,577 basehttp 8276 11460 "GET /shop/user_orders/7/7/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:16:20,022 basehttp 8276 11460 "GET /shop/user_orders/7/14/ HTTP/1.1" 200 150
+INFO 2023-10-20 20:16:23,869 basehttp 8276 11460 "GET /shop/user_orders/7/10/ HTTP/1.1" 200 150
+INFO 2023-10-20 20:16:28,708 basehttp 8276 11460 "GET /shop/user_orders/7/8 HTTP/1.1" 301 0
+INFO 2023-10-20 20:16:28,712 basehttp 8276 3020 "GET /shop/user_orders/7/8/ HTTP/1.1" 200 149
+INFO 2023-10-20 20:16:32,839 basehttp 8276 3020 "GET /shop/user_orders/7/7/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:16:35,720 basehttp 8276 3020 "GET /shop/user_orders/7/7/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:16:37,513 basehttp 8276 3020 "GET /shop/user_orders/7/2 HTTP/1.1" 301 0
+INFO 2023-10-20 20:16:37,519 basehttp 8276 12480 "GET /shop/user_orders/7/2/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:22:06,197 autoreload 8276 6648 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 20:22:06,754 autoreload 7932 8784 Watching for file changes with StatReloader
+INFO 2023-10-20 20:22:30,464 autoreload 7932 8784 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 20:22:30,980 autoreload 284 11880 Watching for file changes with StatReloader
+INFO 2023-10-20 20:22:34,575 basehttp 284 6688 "GET /shop/user_orders/7/2/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:22:35,661 basehttp 284 6688 "GET /shop/user_orders/7/2/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:22:39,540 basehttp 284 6688 "GET /shop/user_orders/7/12 HTTP/1.1" 301 0
+INFO 2023-10-20 20:22:39,545 basehttp 284 10708 "GET /shop/user_orders/7/12/ HTTP/1.1" 200 143
+INFO 2023-10-20 20:23:01,096 autoreload 284 11880 N:\GB_DZ\Django\myprojectgb\myapp_shop\views.py changed, reloading.
+INFO 2023-10-20 20:23:01,611 autoreload 11472 7492 Watching for file changes with StatReloader
+INFO 2023-10-20 20:23:03,185 basehttp 11472 5684 "GET /shop/user_orders/7/12/ HTTP/1.1" 200 121
+INFO 2023-10-20 20:23:21,636 basehttp 11472 5684 "GET /shop/user_orders/7/12/ HTTP/1.1" 200 121
+INFO 2023-10-20 20:23:21,970 basehttp 11472 5684 "GET /shop/user_orders/7/12/ HTTP/1.1" 200 121
+INFO 2023-10-20 20:23:25,121 basehttp 11472 5684 "GET /shop/user_orders/7/2/ HTTP/1.1" 200 728
+INFO 2023-10-20 20:23:31,093 basehttp 11472 5684 "GET /shop/user_orders/7/22/ HTTP/1.1" 200 121
+INFO 2023-10-20 20:24:25,602 basehttp 11472 5684 "GET /shop/user_orders/7/22/ HTTP/1.1" 200 171
+INFO 2023-10-20 20:26:51,851 autoreload 11472 7492 N:\GB_DZ\Django\myprojectgb\myapp_blog\views.py changed, reloading.
+INFO 2023-10-20 20:26:52,418 autoreload 13004 13220 Watching for file changes with StatReloader

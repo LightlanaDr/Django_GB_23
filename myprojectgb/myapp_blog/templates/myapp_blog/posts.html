@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}{{ author.f_name }}'s Posts{% endblock %}
+{% block content %}
+<h2>Все посты</h2>
+<table>
+    {% for post in posts %}
+    <tr>
+        {% if post.publication %}
+            <td><a href="{% url 'post_full' post.id %}">{{
+                post.title }}</a>
+            <td>{{ post.get_summary }}</td>
+        {% else %}
+        <td>{{post.title }}
+        <td>{{ post.get_summary }}</td>
+        {% endif %}
+    </tr>
+    {% empty %}
+    <p> Пользователей не найдено </p>
+    {% endfor %}
+</table>
+{% endblock %}

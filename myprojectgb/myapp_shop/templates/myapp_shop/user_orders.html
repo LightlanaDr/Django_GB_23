@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}
+<p>Заказы Клиента</p>
+{{ customer.name }}
+{{ customer.email }}
+{% endblock %}
+{% block content %}
+    {% if orders %}
+        {% for order in orders %}
+            <h1>Заказ №{{ order.id }}</h1>
+            <p>Дата создания: {{ order.order_date }}</p>
+            <p>Общая стоимость: {{ order.order_sum }}</p>
+            <h3>Товары:</h3>
+                <p>{{ products.pop }}</p>
+        {% endfor %}
+    {% elif client.id == NULL %}
+        <p>Нет такого клиента</p>
+     {% else %}
+        <p>Заказов нет</p>
+    {% endif %}
+{% endblock %}
+
+

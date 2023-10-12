@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}{{ post.title }}{% endblock %}
+{% block content %}
+<h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+<h2>Comment</h2>
+{% for comment in comments %}
+    <p> {{ comment.author }}</p>
+    <p> {{ comment.comment }}</p>
+    {% if comment.updated != comment.publication %}
+        <p> Изменено: {{ comment.updated }}</p>
+    {% else %}
+        <p> Создано: {{ comment.publication }}</p>
+    {% endif %}
+{% endfor %}
+    <p>Количество просмотров {{ post.show_content }}</p>
+
+{% endblock %}
