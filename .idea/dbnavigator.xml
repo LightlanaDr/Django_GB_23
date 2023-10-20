@@ -13,10 +13,10 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="b7445b5f-f49b-4af0-bbc6-f880ffa07899">
-      <console name="Connection" type="STANDARD" schema="" session="Session 1" />
+      <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="c565a0fb-b5b1-4a84-a818-a027fa24555f">
-      <console name="db.sqlite3" type="STANDARD" schema="main" session="Pool" />
+      <console name="db.sqlite3" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="745af22e-72c2-45ea-9b69-3bb55061065d">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
@@ -35,9 +35,7 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="b7445b5f-f49b-4af0-bbc6-f880ffa07899">
-      <session name="Session 1" id="7c21b240-551a-4146-a342-5b6dc1169756" />
-    </connection>
+    <connection id="b7445b5f-f49b-4af0-bbc6-f880ffa07899" />
     <connection id="c565a0fb-b5b1-4a84-a818-a027fa24555f" />
     <connection id="745af22e-72c2-45ea-9b69-3bb55061065d" />
     <connection id="082e0353-3371-4446-8f3a-8c82031f4c46" />
