@@ -10,5 +10,7 @@ urlpatterns = [
     path('post/all/', views.view_all_posts, name='view_all_posts'),
     # path('post/a/<int:id_post>/', views.view_post, name='view_post'),
     path('post/comment/<int:post_id>/', views.post_comm, name='post_comm'),
+    path('create-author/', views.create_author, name='create_author'),
+    path('create_post/', views.create_post, name='create_post'),
 
 ]

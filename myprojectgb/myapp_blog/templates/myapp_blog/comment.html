@@ -12,6 +12,13 @@
     {% else %}
         <p> Создано: {{ comment.publication }}</p>
     {% endif %}
+<p>Добавить комментарий</p>
+<form action="" method="post">
+{% csrf_token %}
+{{ form.as_div }}
+<input type="submit" value="Отправить">
+</form>
+
 {% endfor %}
     <p>Количество просмотров {{ post.show_content }}</p>
 

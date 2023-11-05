@@ -13,6 +13,9 @@ class Author(models.Model):
     def __str__(self):
         return f'Name: {self.f_name}{self.l_name}, email: {self.email}'
 
+    def get_fullname(self):
+        return f'{self.f_name}{self.l_name}'
+
 
 # заголовок статьи с максимальной длиной 200 символов
 # ○ содержание статьи
@@ -27,7 +30,7 @@ class Post(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     content = models.TextField()
-    publication = models.DateField(auto_now_add=True)
+    publication = models.DateField()
     category = models.CharField(max_length=100, default='category')
     show_content = models.IntegerField(default=0)
     status = models.BooleanField(default=False)

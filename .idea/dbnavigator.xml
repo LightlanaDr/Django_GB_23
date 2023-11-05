@@ -16,7 +16,7 @@
       <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
     <connection id="c565a0fb-b5b1-4a84-a818-a027fa24555f">
-      <console name="db.sqlite3" type="STANDARD" schema="" session="Main" />
+      <console name="db.sqlite3" type="STANDARD" schema="main" session="Main" />
     </connection>
     <connection id="745af22e-72c2-45ea-9b69-3bb55061065d">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
@@ -36,16 +36,15 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="b7445b5f-f49b-4af0-bbc6-f880ffa07899" />
-    <connection id="c565a0fb-b5b1-4a84-a818-a027fa24555f" />
+    <connection id="c565a0fb-b5b1-4a84-a818-a027fa24555f">
+      <session name="Session 1" id="48a7e8e0-5449-4db7-a12f-a06300ea3ba7" />
+    </connection>
     <connection id="745af22e-72c2-45ea-9b69-3bb55061065d" />
     <connection id="082e0353-3371-4446-8f3a-8c82031f4c46" />
     <connection id="c74d54b9-8674-4ade-9d85-4ba1a47601a3" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
-  </component>
-  <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/myprojectgb/db.sqlite3" connection-id="virtual-sqlite-connection" session-id="MAIN" current-schema="" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -79,7 +78,7 @@
           <deprecated-pwd value="" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />

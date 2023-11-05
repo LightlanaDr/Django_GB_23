@@ -2,7 +2,8 @@ from datetime import datetime, timedelta
 
 from django.shortcuts import get_object_or_404, render
 
-from .models import User, Order
+from .forms import ProductCreate
+from .models import User, Order, ProductNew
 
 
 def user_orders(request, user_id):
@@ -36,3 +37,31 @@ def sorted_basket(request, user_id, days_ago):
             return render(request, 'myapp_shop/not_orders.html')
     return render(request, 'myapp_shop/user_products_all.html',
                   {'customer': customer, 'product_set': product_set, 'days_ago': days_ago})
+
+
+def create_product(request):
+    """Создание продукта из формы"""
+    if request.method == 'POST':
+        form = ProductCreate(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return render(request, 'myapp_shop/created.html', {'form': form})
+    else:
+        form = ProductCreate()
+    return render(request, 'myapp_shop/create_prod.html', {'form': form})
+
+
+def update_product(request, id_product: int):
+    """Редактирование продукта из формы"""
+    product = get_object_or_404(ProductNew, pk=id_product)
+    if request.method == 'POST':
+        form = ProductCreate(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return render(request, 'myapp_shop/created.html', {'product': product,
+                                                               'form': form})
+    else:
+        form = ProductCreate()
+    return render(request, 'myapp_shop/update_prod.html', {'product': product,
+                                                           'form': form})
+

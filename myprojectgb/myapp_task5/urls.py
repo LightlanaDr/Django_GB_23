@@ -5,4 +5,6 @@ urlpatterns = [
     path('one/<int:n>/', views.one, name='one'),
     path('two/', views.two, name='two'),
     path('three/', views.three, name='three'),
+    path('choice/', views.user_form, name='user_form'),
+
 ]
