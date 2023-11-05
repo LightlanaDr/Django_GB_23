@@ -32,3 +32,14 @@
 Товары в списке не должны повторятся.
 [views.py](https://github.com/LightlanaDr/Django_GB_23/blob/master/myprojectgb/myapp_shop/views.py)
 [templates](https://github.com/LightlanaDr/Django_GB_23/tree/master/myprojectgb/myapp_shop/templates/myapp_shop)
+
+## Урок 4. Работа с формами
+### Задание
+Доработаем задачу про клиентов, заказы и товары из
+прошлого семинара.
+Создайте [форму для редактирования товаров в базе](https://github.com/LightlanaDr/Django_GB_23/blob/master/myprojectgb/myapp_shop/forms.py)
+данных.
+Домашнее задание
+Измените модель продукта, добавьте поле для хранения
+фотографии продукта.
+[Создайте форму, которая позволит сохранять фото.](https://github.com/LightlanaDr/Django_GB_23/blob/master/myprojectgb/myapp_shop/forms.py)
