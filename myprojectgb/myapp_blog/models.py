@@ -16,6 +16,10 @@ class Author(models.Model):
     def get_fullname(self):
         return f'{self.f_name}{self.l_name}'
 
+    class Meta:
+        verbose_name = 'Автор'
+        verbose_name_plural = 'Авторы'
+
 
 # заголовок статьи с максимальной длиной 200 символов
 # ○ содержание статьи
@@ -42,6 +46,10 @@ class Post(models.Model):
         words = self.content.split()
         return f'{" ".join(words[:12])}...'
 
+    class Meta:
+        verbose_name = 'Пост'
+        verbose_name_plural = 'Посты'
+
 
 class Comment(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
@@ -52,3 +60,7 @@ class Comment(models.Model):
 
     def __str__(self):
         return f'Title is {self.comment}'
+
+    class Meta:
+        verbose_name = 'Комментарий'
+        verbose_name_plural = 'Комментарии'
